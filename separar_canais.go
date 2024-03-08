@@ -9,7 +9,7 @@ import (
 
 func main() {
 	if len(os.Args) != 4 {
-		fmt.Println("Uso: go run script.go <arquivo_log> <canal_inicial> <canal_final>")
+		fmt.Println("Uso: go run separar_canais.go <arquivo_log> <canal_inicial> <canal_final>")
 		os.Exit(1)
 	}
 
